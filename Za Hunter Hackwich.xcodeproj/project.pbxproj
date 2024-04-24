@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F85810042BC82EFB00CE437B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85810032BC82EFB00CE437B /* LocationManager.swift */; };
 		F8DD3BB32B864EC2009C5F50 /* Za_Hunter_HackwichApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD3BB22B864EC2009C5F50 /* Za_Hunter_HackwichApp.swift */; };
 		F8DD3BB52B864EC2009C5F50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD3BB42B864EC2009C5F50 /* ContentView.swift */; };
 		F8DD3BB72B864EC3009C5F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DD3BB62B864EC3009C5F50 /* Assets.xcassets */; };
 		F8DD3BBA2B864EC3009C5F50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DD3BB92B864EC3009C5F50 /* Preview Assets.xcassets */; };
-		F8DD3BF72B8F8B14009C5F50 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DD3BF62B8F8B14009C5F50 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F85810032BC82EFB00CE437B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F8DD3BAF2B864EC2009C5F50 /* Za Hunter Hackwich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Za Hunter Hackwich.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DD3BB22B864EC2009C5F50 /* Za_Hunter_HackwichApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Za_Hunter_HackwichApp.swift; sourceTree = "<group>"; };
 		F8DD3BB42B864EC2009C5F50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8DD3BB62B864EC3009C5F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8DD3BB92B864EC3009C5F50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F8DD3BF62B8F8B14009C5F50 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				F8DD3BB22B864EC2009C5F50 /* Za_Hunter_HackwichApp.swift */,
 				F8DD3BB42B864EC2009C5F50 /* ContentView.swift */,
-				F8DD3BF62B8F8B14009C5F50 /* LocationManager.swift */,
+				F85810032BC82EFB00CE437B /* LocationManager.swift */,
 				F8DD3BB62B864EC3009C5F50 /* Assets.xcassets */,
 				F8DD3BB82B864EC3009C5F50 /* Preview Content */,
 			);
@@ -98,7 +98,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					F8DD3BAE2B864EC2009C5F50 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -142,7 +142,7 @@
 			files = (
 				F8DD3BB52B864EC2009C5F50 /* ContentView.swift in Sources */,
 				F8DD3BB32B864EC2009C5F50 /* Za_Hunter_HackwichApp.swift in Sources */,
-				F8DD3BF72B8F8B14009C5F50 /* LocationManager.swift in Sources */,
+				F85810042BC82EFB00CE437B /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +185,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,6 +246,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
